@@ -5,7 +5,7 @@ using UnityEngine;
 public class AsteroidScript : MonoBehaviour
 {
     public GameObject asteroidExp;
-    public GameObject playerExp;
+    [SerializeField] GameObject playerExp;
     [SerializeField] float rotationSpeed;
     [SerializeField] float minSpeed;
     public float maxSpeed;
