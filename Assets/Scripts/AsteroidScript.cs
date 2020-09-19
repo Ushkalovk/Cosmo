@@ -6,7 +6,7 @@ public class AsteroidScript : MonoBehaviour
 {
     public GameObject asteroidExp;
     public GameObject playerExp;
-    public float rotationSpeed;
+    [SerializeField] float rotationSpeed;
     [SerializeField] float minSpeed;
     public float maxSpeed;
     void Start()
